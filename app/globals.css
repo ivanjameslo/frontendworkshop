@@ -1,25 +1,5 @@
 @import "tailwindcss";
 
-
-/* :root {
-  --background: #ffffff;
-  --foreground: #171717;
-} */
-
-/* @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-} */
-
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-} */
-
 body {
   background: linear-gradient(to bottom, #ff0000, #800000);
   font-family: "Poppins", sans-serif;
@@ -54,11 +34,9 @@ body {
   font-size: 2.3rem;
   font-weight: bold;
   text-align: center;
-  /* margin-left: 10px; */
 }
 
 .HeroParagraph {
-  /* margin-left: 12px; */
   text-align: center;
   font-size: 1rem;
 }
