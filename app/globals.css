@@ -1,26 +1,104 @@
 @import "tailwindcss";
 
-:root {
+
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
-}
+} */
 
-@theme inline {
+/* @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
+} */
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: red;
+  font-family: "Poppins", sans-serif;
+  font-size:medium;
+  justify-content: center;
+  align-items: center;
+}
+
+.NavBar {
+  color: white;
+  font-size:2rem;
+  font-weight:bold;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+}
+
+.Hero {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 3px;
+  width: 100%;
+}
+
+.Tagline {
+  color: white;
+  font-size: 2.3rem;
+  font-weight: bold;
+  text-align: center;
+  /* margin-left: 10px; */
+}
+
+.HeroParagraph {
+  /* margin-left: 12px; */
+  text-align: center;
+  font-size: 1rem;
+}
+
+.HeroButton {
+  background-color: white;
+  color: red;
+  font-weight: bold;
+  border-radius: 50px;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  display: block;
+  margin: 20px auto;
+}
+
+@media (min-width: 768px) {
+  .Hero {
+    flex-direction: row;
+    margin: 20px;
+  }
+
+  img{
+    width: 80%
+  }
+
+  .Tagline {
+    font-size: 2rem;
+    text-align: left;
+  }
+
+  .HeroParagraph {
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  .HeroButton {
+    font-size: 1rem;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+  }
 }
