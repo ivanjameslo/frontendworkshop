@@ -12,7 +12,7 @@ export default function Home() {
             <div>
                 <img src="pokedex.png" alt="Pokedex" />
             </div>
-            <div>
+            <div className="HeroText">
               <h1 className="Tagline">Catch 'Em All!</h1>
               <p className="HeroParagraph">Explore with Our Interactive Pokedex</p>
               <button className="HeroButton">View Pokedex</button>
